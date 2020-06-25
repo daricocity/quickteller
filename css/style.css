@@ -1,0 +1,371 @@
+/* Google Font */
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../font/quicksand-bold-webfont.eot');
+    src: url('../font/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/quicksand-bold-webfont.woff2') format('woff2'),
+         url('../font/quicksand-bold-webfont.woff') format('woff'),
+         url('../font/quicksand-bold-webfont.ttf') format('truetype'),
+         url('../font/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksand_lightregular';
+    src: url('../font/quicksand-light-webfont.eot');
+    src: url('../font/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/quicksand-light-webfont.woff2') format('woff2'),
+         url('../font/quicksand-light-webfont.woff') format('woff'),
+         url('../font/quicksand-light-webfont.ttf') format('truetype'),
+         url('../font/quicksand-light-webfont.svg#quicksand_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksand_mediumregular';
+    src: url('../font/quicksand-medium-webfont.eot');
+    src: url('../font/quicksand-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/quicksand-medium-webfont.woff2') format('woff2'),
+         url('../font/quicksand-medium-webfont.woff') format('woff'),
+         url('../font/quicksand-medium-webfont.ttf') format('truetype'),
+         url('../font/quicksand-medium-webfont.svg#quicksand_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../font/quicksand-regular-webfont.eot');
+    src: url('../font/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../font/quicksand-regular-webfont.woff') format('woff'),
+         url('../font/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../font/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* // Google Font*/
+
+/* Start Font */
+html,
+body,
+header{
+    height: 100%;
+}
+
+section{
+    height: 100%;
+    max-height: 100vh
+}
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: quicksand_lightregular, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+/* End Font */
+
+/* Start Navbar */
+.top-header{
+    padding-top:5px;
+}
+
+.top-header-container{
+    background: #005479; 
+    width: 100%;
+}
+
+.top-header p{
+    float: right; 
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+}
+
+#navbarContent ul li a {
+    font-weight: 700;
+    font-family: quicksand_mediumregular, sans-serif;
+}
+
+.top-nav-collapse {
+    background-color: transparent!important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    /*background: #2f3b59!important;*/
+}
+
+/* End Navbar */
+
+/* Start Web Banner */
+#cap h2 {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+#cap h6 {
+    font-weight: 700;
+}
+
+#intro_home {
+    background: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Search */
+.lab {
+    font-family: quicksand_lightregular, sans-serif;
+}
+
+.card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+
+.card-body {
+    /*background: rgba(255,255,255,.5);*/
+    background: linear-gradient(to bottom, #0089c5 0%, #005479 100%);
+}
+
+.form-control:-moz-placeholder {
+    color: #044d0b!important;
+    font-weight: 500;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #044d0b!important;
+    font-weight: 500;
+}
+
+.form-control:-ms-input-placeholder { 
+    color: #044d0b!important;
+    font-weight: 500;
+}
+
+.form-control::placeholder,
+form input[type=text]:focus:not([readonly]),
+form input[type=email]:focus:not([readonly]) {
+    color: #044d0b!important;
+    background: #fff;
+    font-weight: 700;
+    padding-left: 10px;
+    font-family: quicksand_lightregular, sans-serif;
+    font-size: 15px;
+}
+
+form input[type=text],
+form input[type=email] {
+    background: #fff;
+    font-family: quicksand_lightregular, sans-serif;
+    font-size: 15px;
+}
+
+.mdb-select,
+.mdb-select option,
+form input[type=text],
+form input[type=email] {
+    color: #044d0b;
+    font-size: 0.8125rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-align: start;
+    font: 700 15px quicksand_lightregular, sans-serif;
+    -webkit-writing-mode: horizontal-tb!important;
+}
+
+form input[type=email] {
+    height: 20px;
+    border-radius: 2px;
+    font-family: quicksand_lightregular, sans-serif;
+    font-size: 15px;
+}
+
+.md-form textarea {
+    background: #fff;
+    height: 100px;
+}
+
+form textarea:focus:not([readonly]) {
+    background: #fff;
+}
+
+.mdb-select {
+    width: 100%;
+    margin-top: 2.5px;
+    line-height: 50px;
+    height: 53px;
+    margin-left: 1px;
+    font-family: quicksand_lightregular, sans-serif;
+    font-size: 15px;
+}
+
+.sub-but button {
+    width: 100%;
+    height: 53px;
+    /*background: #4db7fe;*/
+    text-transform: capitalize;
+}
+
+.sub-but i{
+    color: #005479;
+}
+
+@media (min-width: 768px) {
+    .card-form {
+        margin-bottom: -46px;
+    }
+    form input[type=text].what {
+        border-radius: 10px 0px 0px 10px;
+        font-family: quicksand_lightregular, sans-serif;
+        font-size: 15px;
+    }
+    .form-button {
+        border-radius: 0px 10px 10px 0px;
+    }   
+    .card-body {
+        /*background: rgba(255,255,255,.5);*/
+        padding: 10px 12px;
+        border-radius: 10px;
+    }
+    .what {
+        padding-right: 0px;
+    }
+    .location {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .categories {
+        padding-right: 0px; 
+        padding-left: 0px;
+    }
+    .sub-but {
+        padding-left: 0px;
+        margin-top: -3.5px;
+        font-family: quicksand_lightregular, sans-serif;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-body,
+    .mdb-select,
+    .sub-but button,
+    form input[type=text] {
+        border-radius: 9px;
+        font-family: quicksand_lightregular, sans-serif;
+        font-size: 15px;
+    }
+    .sub-but button,
+    form input[type=text]#location {
+        margin-top: -10px;
+        margin-bottom: -10px;
+        font-family: quicksand_lightregular, sans-serif;
+        font-size: 15px;
+    }
+    .card-form {
+        margin-bottom: -45px;
+    }
+    #cap h2 {
+        font-size: 35px;
+    }
+}
+/* End Web Banner */
+
+/* Start Sidebar */
+.sidebar,
+.off-canvas-sidebar {
+  position: absolute;
+  top: 107.5px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(to bottom, #0089c5 0%, #005479 100%);
+  /*box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
+}
+
+.sidebar .sidebar-wrapper,
+.off-canvas-sidebar .sidebar-wrapper {
+  position: relative;
+  height: calc(100vh - 107.5px);
+  overflow: auto;
+  width: 120px;
+  z-index: 4;
+  padding: 20px 10px 0 20px;
+}
+
+#slide-out{
+    top: 32px;
+    z-index: 1;
+    padding: 20px 10px 0 20px;
+    background: linear-gradient(to bottom, #0089c5 0%, #005479 100%);
+
+}
+
+#slide-out .slide-out-wrapper{
+    color: #fff;
+    z-index: 4;
+}
+
+#slide-out .slide-out-wrapper li a p{
+    color: #fff;
+    font-size: 0.8em;
+    margin-top: -30px; 
+}
+
+#slide-out .slide-out-wrapper li a i{
+    color: #fff;
+    font-size: 2.5em;
+}
+
+#slide-out .slide-out-wrapper li{
+    margin-bottom: 40px;
+}
+
+.sidebar ul li{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a p{
+    color: #fff;
+    font-size: 0.8em;
+    
+}
+
+.sidebar ul li a i{
+    color: #fff;
+    font-size: 2.5em;
+    margin-left: 15px;
+}
+
+@media(min-width: 768px){
+    .menu-bar-icon i{
+        display: none;
+    }
+    .navbar-brand img{
+        float: left;
+    }
+}
+
+@media(max-width: 767px){
+    .sidebar{
+        display: none;
+    }
+}
+/* End Sidebar */
